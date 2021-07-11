@@ -1,10 +1,11 @@
 import './App.scss';
-import { Icons } from './icons/Icons';
+import { Icons } from './REACT-ICONS/Icons';
+import {Toastify} from './REACT-TOASTIFY/Toastify';
 
 function App() {
   return (
     <div className="App">
-      <Icons/>
+      <Toastify/>
     </div>
   );
 }
