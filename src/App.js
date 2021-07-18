@@ -5,12 +5,13 @@ import {ReactModal} from './REACT-MODAL/ReactModal';
 import {ReactTooltip} from './REACT-TOOLTIP/ReactTooltip';
 import {ReactCountup} from './REACT-COUNTUP/Countup';
 import { IdleTimerContainer } from './IDLE-TIMER/IdleTimerContainer';
+import { ColorPicker } from './REACT-COLOR/ColorPicker';
 
 
 function App() {
   return (
     <div className="App">
-      <IdleTimerContainer />
+      <ColorPicker/>
     </div>
   );
 }
@@ -18,4 +19,6 @@ function App() {
 export default App;
 
 // Every component contains different package.
+
+
 
