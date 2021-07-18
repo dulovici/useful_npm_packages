@@ -6,12 +6,13 @@ import {ReactTooltip} from './REACT-TOOLTIP/ReactTooltip';
 import {ReactCountup} from './REACT-COUNTUP/Countup';
 import { IdleTimerContainer } from './IDLE-TIMER/IdleTimerContainer';
 import { ColorPicker } from './REACT-COLOR/ColorPicker';
+import { CreditCard } from './CREDIT-CARDS/CreditCard';
 
 
 function App() {
   return (
     <div className="App">
-      <ColorPicker/>
+      <CreditCard/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './colorPicker.sass';
+import './colorPicker.scss';
 import { ChromePicker } from 'react-color';
 
 export const ColorPicker = () => {

@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import './idleTimer.sass';
+import './idleTimer.scss';
 import IdleTimer from 'react-idle-timer';
 
 export const IdleTimerContainer = () => {
