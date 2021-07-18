@@ -10,12 +10,13 @@ import { CreditCard } from './CREDIT-CARDS/CreditCard';
 import { DatePick } from './DATE-PICKER/DatePick';
 import { MdxDeck } from './MDX-DECK/MdxDeck';
 import { VideoPlayer } from './VIDEO-PLAYER/VideoPlayer';
+import { LoadingInd } from './LOADING-INDICATORS/LoadingInd';
 
 
 function App() {
   return (
     <div className="App">
-      <VideoPlayer/>
+      <LoadingInd/>
     </div>
   );
 }
