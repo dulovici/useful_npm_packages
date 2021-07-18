@@ -7,12 +7,13 @@ import {ReactCountup} from './REACT-COUNTUP/Countup';
 import { IdleTimerContainer } from './IDLE-TIMER/IdleTimerContainer';
 import { ColorPicker } from './REACT-COLOR/ColorPicker';
 import { CreditCard } from './CREDIT-CARDS/CreditCard';
+import { DatePick } from './DATE-PICKER/DatePick';
 
 
 function App() {
   return (
     <div className="App">
-      <CreditCard/>
+      <DatePick/>
     </div>
   );
 }
