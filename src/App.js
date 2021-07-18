@@ -11,12 +11,13 @@ import { DatePick } from './DATE-PICKER/DatePick';
 import { MdxDeck } from './MDX-DECK/MdxDeck';
 import { VideoPlayer } from './VIDEO-PLAYER/VideoPlayer';
 import { LoadingInd } from './LOADING-INDICATORS/LoadingInd';
-
+import {Charts} from './REACT-CHARTS/Charts'
+ 
 
 function App() {
   return (
     <div className="App">
-      <LoadingInd/>
+      <Charts />
     </div>
   );
 }
