@@ -9,12 +9,13 @@ import { ColorPicker } from './REACT-COLOR/ColorPicker';
 import { CreditCard } from './CREDIT-CARDS/CreditCard';
 import { DatePick } from './DATE-PICKER/DatePick';
 import { MdxDeck } from './MDX-DECK/MdxDeck';
+import { VideoPlayer } from './VIDEO-PLAYER/VideoPlayer';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <MdxDeck/> */}
+      <VideoPlayer/>
     </div>
   );
 }
