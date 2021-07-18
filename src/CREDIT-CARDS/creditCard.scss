@@ -1,1 +1,21 @@
 
+.credit-card {
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        width: 200px;
+        padding: .357rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s;
+    }
+}
