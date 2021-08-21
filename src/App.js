@@ -12,12 +12,14 @@ import { MdxDeck } from './MDX-DECK/MdxDeck';
 import { VideoPlayer } from './VIDEO-PLAYER/VideoPlayer';
 import { LoadingInd } from './LOADING-INDICATORS/LoadingInd';
 import {Charts} from './REACT-CHARTS/Charts'
+import { ComponentContainer } from './MATERIAL-UI/ComponentContainer';
+import {ReactSelect} from './REACT-SELECT/ReactSelect'
  
 
 function App() {
   return (
     <div className="App">
-      <Charts />
+      <ReactSelect />
     </div>
   );
 }
