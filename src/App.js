@@ -15,13 +15,14 @@ import {Charts} from './REACT-CHARTS/Charts'
 import { ComponentContainer } from './MATERIAL-UI/ComponentContainer';
 import {ReactSelect} from './REACT-SELECT/ReactSelect';
 import {AxiosApi} from './AXIOS/AxiosApi';
-import {Ref} from './_PLAYGROUND/UseRef/Ref'
+import {Ref} from './_PLAYGROUND/UseRef/Ref';
+import {Context1} from './_PLAYGROUND/UseContext/Context1'
  
 
 function App() {
   return (
     <div className="App">
-      <Ref />
+      <Context1 />
     </div>
   );
 }
